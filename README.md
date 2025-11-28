@@ -1,15 +1,21 @@
 # Impact of COVID-19 on Tourism in Spain — Case Study
 
+![Data Analysis](https://img.shields.io/badge/Type-Data%20Analysis-green)
+![SQLite](https://img.shields.io/badge/Made%20with-SQLite-blue)
+![status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 **Autor:** Valeria Medina  
 **Herramientas:** SQL · Power BI · Excel  
 **Fuente de datos:** Instituto Nacional de Estadística (INE) – Estadísticas de Movimientos Turísticos (FRONTUR)
 
 --
 
-## 🚧 Estado del proyecto
+## 🚧 Estado del proyecto / Updates
 **En desarrollo:**  
-- [x] Diseño de preguntas
-- [x] Descripción de lo datos
+- [x] Crear proyecto ‖ 27/22/25 - Proyecto creado (estructura inicial)
+- [x] Diseño de preguntas ‖ 27/22/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
+- [x] Descripción de lo datos ‖ 27/22/25 - Describir origen de los datos
 - [ ] Limpieza y estructura en Excel
 - [ ] Consultas SQL  
 - [ ] Dashboard en Power BI  
