@@ -14,8 +14,8 @@
 ## Estado del proyecto ‖ Updates
 **En desarrollo:**  
 - [x] Crear proyecto ‖ 27/11/25 - Proyecto creado (estructura inicial)
-- [x] Diseño de preguntas ‖ 27/11/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
-- [x] Descripción de lo datos ‖ 27/11/25 - Describir origen de los datos
+- [x] Diseño de preguntas ‖ 28/11/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
+- [x] Descripción de lo datos ‖ 28/11/25 - Describir origen de los datos
 - [ ] Limpieza y estructura en Excel
 - [ ] Consultas SQL  
 - [ ] Dashboard en Power BI  
