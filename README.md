@@ -10,6 +10,21 @@
 **Fuente de datos:** Instituto Nacional de Estadística (INE) – Estadísticas de Movimientos Turísticos (FRONTUR)
 
 ---
+##Estructura de datos del proyecto
+
+project\
+│\
+├── data\
+│   ├── datos_INE_raw\
+│   │   └── turistas_x_comunidad_destino.csv\
+│   │\
+│   └── datos_INE_limpios\
+│       └── turistas_x_comunidad_destino.csv\
+│\
+├── LICENSE\
+└── README.md\
+
+---
 
 ## Estado del proyecto ‖ Updates
 **En desarrollo:**  
@@ -89,11 +104,22 @@ Nos centraremos en el usos de datos de los últimos 4 años, por comunidad autó
 
 La limpieza inicial se realizó en Excel para:
 
-- Eliminando la variación anual para dejar solo los datos de tipo “Dato Base”
-- Filtrar años anteriores al 2019 y posteriores a 2024
-- Eliminar totales nacionales
-- Estandarizar nombres de columnas
-- Normalizar valores numéricos (Se eliminan comas y puntos para evitar errores)
-- Generar código por comunidad (No totalmente necesario, pero a futuro puede ser util si usamos otros datos)
+1. Filtrar solo registros con Tipo de dato “Dato Base”\
+Eliminamos datos de tipo "Variación anual"
+2. Eliminar datos fuera de rango (2019 a 2024)\
+De decartan valores anteriores y posteriores
+3. Eliminar los totales nacionales (“Total”)\
+Para evitar duplicidades y mantener consistencia a nivel regional.
+4. Normalizar valores numéricos
+   - Eliminar puntos de miles
+   - Eliminar comas innecesarias
+   - Convertir el campo Total a número entero
+   - Convertir celdas vacías ('') en valores nulos (NULL)
+5. Estandarizar los nombres de columnas\
+(Comunidad, Periodo, Turistas, etc.)
+6. Extraer código por comunidad\
+No es obligatorio para este análisis, pero útil para posibles integraciones (hotelera, procedencia).
+7. Guardar el dataset final como CSV UTF-8\
+Para importarlo sin problemas a SQLite/DBeaver.
 
 
