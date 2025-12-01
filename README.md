@@ -10,7 +10,7 @@
 **Fuente de datos:** Instituto Nacional de Estadística (INE) – Estadísticas de Movimientos Turísticos (FRONTUR)
 
 ---
-##Estructura de datos del proyecto
+## Estructura de datos del proyecto
 
 ```
 project
@@ -23,9 +23,8 @@ project
 │        └── turistas_x_comunidad_destino.csv
 │
 ├──sql
-|  └── exploratory-analysis.sql
-│         
-|
+|  └── exploratory_analysis.sql
+│       
 ├── LICENSE
 └── README.md
 ```
@@ -37,7 +36,7 @@ project
 - [x] [Diseño de preguntas](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#descripci%C3%B3n-de-los-datos)‖ 28/11/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
 - [x] [Descripción de los datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#descripci%C3%B3n-de-los-datos) ‖ 28/11/25 - Describir origen de los datos
 - [x] [Limpieza y estructura en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos) ‖ 29/11/25 - Limpieza inicial en Excel
-- [x] [Comprobación de datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#comprobaci%C3%B3n-de-datos) ‖ 01/12/25 - Combrobaciones previas al análisis
+- [x] [Comprobación de datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#comprobaci%C3%B3n-de-datos) ‖ 01/12/25 - Comprobaciones previas al análisis
 - [ ] Consultas SQL
 - [ ] Dashboard en Power BI  
 - [ ] Conclusiones finales
@@ -75,7 +74,7 @@ El objetivo final es **medir la magnitud del descenso de turistas** y **determin
 
 ## Descripción de los datos
 
-Para este análisis Usaremos los datasets proporcionados por el Instituto Nacional de Estadística (INE) relacionadOs con el movimiento turístico y la actividad hotelera.
+Para este análisis Usaremos los datasets proporcionados por el Instituto Nacional de Estadística (INE) relacionados con el movimiento turístico y la actividad hotelera.
 
 [Estadística de movimientos turísticos en frontera](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176996&menu=ultiDatos&idp=1254735576863)
   - Número de turistas según comunidad autónoma de destino principal
@@ -85,17 +84,15 @@ Para este análisis Usaremos los datasets proporcionados por el Instituto Nacion
   - Viajeros, pernoctaciones por tipo de alojamiento por comunidades y ciudades autónomas
 
 Al usar diferentes datasets para este proyecto, establecemos una prioridad entre cada tabla, se determinó que el orden de importancia es el siguiente:
-  - Tabla 1 — Turistas por comunidad autónoma\
+  - **Tabla 1** — Turistas por comunidad autónoma (Dataset principal)\
 Se compone de:
       - Comunidades autónomas
-      - Tipo de dato
-         - Dato base
-         - Tasa de variación anual
+      - Tipo de dato (Dato base / Tasa de variación anual)
       - Periodo (año)
-      - Total (Total de turistar registrados)
+      - Total (Total de turistas registrados)
 
-  - Tabla 2 — (opcional) Ocupación hotelera por comunidad
-  - Tabla 3 — (opcional) Turistas por país de procedencia
+  - **Tabla 2** — Ocupación hotelera por comunidad (Opcional)
+  - **Tabla 3** — Turistas por país de procedencia (Opcional)
 
 El objetivo es consolidar estas tablas en un modelo analítico que permita medir el impacto del COVID-19 en el sector turístico español de forma consistente y comparable.
 
@@ -104,7 +101,7 @@ El objetivo es consolidar estas tablas en un modelo analítico que permita medir
 ## Preparación y Limpieza de datos
 ### Turistas por comunidad autónoma:
 
-Nos centraremos en el usos de datos de los últimos 4 años, por comunidad autónoma y datos base. 
+Nos centraremos en los datos entre 2019 y 2024 (6 años), por comunidad autónoma y únicamente con datos base. 
 > [!NOTE]
 > Las estimaciones por comunidad autónoma no tienen porqué coincidir con el total nacional, ya que el INE utiliza procedimientos estadísticos independientes para cada nivel territorial. Yo utilicé la suma de los totales por comunidad como proxy para el total nacional.
 
@@ -113,7 +110,7 @@ La limpieza inicial se realizó en Excel para:
 1. Filtrar solo registros con Tipo de dato “Dato Base”\
 Eliminamos datos de tipo "Variación anual"
 2. Eliminar datos fuera de rango (2019 a 2024)\
-De decartan valores anteriores y posteriores
+Se descartan valores anteriores y posteriores
 3. Eliminar los totales nacionales (“Total”)\
 Para evitar duplicidades y mantener consistencia a nivel regional.
 4. Normalizar valores numéricos
@@ -132,9 +129,9 @@ Para importarlo sin problemas a SQLite/DBeaver.
 
 ## Comprobación de datos
 
-Antes de empezar a respoder las preguntas iniciales, se hace una última comprobación con SQL.
-Se crea un dataset denominado turistas_comunidad_clean, en el que volvemos a comprobar que los valores estén en el formato necesario para realizar el análisis.
-El archivo SQL utilizado se encuentra en la carpeta sql bajo el nombre de exploratory_analysis.sql
+Antes de empezar a responder las preguntas iniciales, se hace una última comprobación con SQL.
+Se crea un dataset denominado turistas_comunidad_clean, en el que volvemos a comprobar que los valores estén en el formato necesario para realizar el análisis.\
+➡ [Ver archivo](/sql/exploratory_analysis.sql)
 
 ### Resultados
 
