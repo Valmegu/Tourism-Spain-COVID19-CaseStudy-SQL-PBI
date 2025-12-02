@@ -33,7 +33,7 @@ project
 ## Estado del proyecto ‖ Updates
 **En desarrollo:**  
 - [x] Crear proyecto ‖ 27/11/25 - Proyecto creado (estructura inicial)
-- [x] [Diseño de preguntas](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#descripci%C3%B3n-de-los-datos)‖ 28/11/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
+- [x] [Diseño de preguntas](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main?tab=readme-ov-file#preguntas-clave)‖ 28/11/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
 - [x] [Descripción de los datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#descripci%C3%B3n-de-los-datos) ‖ 28/11/25 - Describir origen de los datos
 - [x] [Limpieza y estructura en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos) ‖ 29/11/25 - Limpieza inicial en Excel
 - [x] [Comprobación de datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#comprobaci%C3%B3n-de-datos) ‖ 01/12/25 - Comprobaciones previas al análisis
@@ -154,3 +154,57 @@ Se crea un dataset denominado turistas_comunidad_clean, en el que volvemos a com
 
 Debido a que Ceuta y Melilla no cuentan con datos para 2019 y 2020, no será posible incluirlas en los análisis comparativos (caída 2020, recuperación vs 2019, etc.). Se mantienen en el dataset por transparencia, pero se excluyen en los cálculos que lo requieren.
 
+---
+
+## Analisis
+
+Pasamos a responder una a una las preguntas planteadas anteriormente
+
+### 1. ¿Qué tan fuerte fue la caída en 2020 comparado con 2019?
+
+- Caída absoluta(2019 → 2020)
+
+Comparamos el total de turistas de cada comunidad en 2019 vs 2020 para medir cuántos turistas se perdieron en números absolutos. Las mayores caídas fueron:
+
+|Comunidad|Turistas 2019|Turistas 2020|Diferencia|
+|---|---|----|-----|
+|Cataluña|19.375.152|3.870.259|**-15.504.893**|
+|Balears, Illes|13.679.781|1.721.123|**-11.958.658**|
+|Canarias	|13.146.863|	3.787.228	|**-9.359.635**|
+|Andalucía	|12.023.153	|2.700.613	|**-9.322.540**|
+|Comunitat Valenciana	|9.535.496|2.542.758|	**-6.992.738**|
+
+Estas comunidades a su vez registraron la mayor cantidad de turistas en el 2019, por lo que es normal que presenten las mayores pérdidas en volumen.
+    
+- Caída porcentual (2019 → 2020)
+
+Es necesario saber de manera porcentual cuales fueron las comunidades con más perdidas
+Calculamos el porcentaje de disminución tomando como base el valor de 2019 y comparando la diferencia respecto al año 2020
+
+$$Perdida = \frac{Turistas2020-Turistas2019}{Turistas2019}x100$$
+
+Los resultados muestrasn un patrón diferente
+
+|Comunidad|Turistas 2019|Turistas 2020|Porcentaje de perdida|
+|---|---|---|---|
+|Illes Balears|	13.679.781	|1.721.123	|-87.0|
+|Cataluña	|19.375.152|	3.870.259	|-80.0|
+|Comunidad de Madrid|	7.640.980|	1.718.335|	-77.0|
+|Andalucía|	12.023.153	|2.700.613|	-77.0|
+|Región de Murcia	|1.037.818|	279.245	|-73.0|
+
+Este análisis nos revela algo mucho más interesante. El impacto de perdidas no está ligado al volumen total de turistasv
+Vemsos que Murcia y Madrid entran en el top de perdidas y Baleates sufre una perdida mayor que Cataluña a pesar de tener menos turistas en 2019.
+
+- Caída por comunidad  
+
+### 2. ¿En qué año comenzó la recuperación real (2021–2024)?
+- Crecimiento YoY  
+- Comparación entre regiones  
+
+### 3. ¿En 2024 el turismo ya superó los niveles de 2019?
+- Total nacional  
+- Ranking por comunidad  
+- Cuota del turismo nacional  
+
+### 4. ¿Qué comunidades muestran la recuperación más rápida?
