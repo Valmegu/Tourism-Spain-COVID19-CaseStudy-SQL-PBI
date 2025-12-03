@@ -40,7 +40,9 @@ project
 - [x] [Limpieza y estructura en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos) ‖ 29/11/25 - Limpieza inicial en Excel
 - [x] [Comprobación de datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#comprobaci%C3%B3n-de-datos) ‖ 01/12/25 - Comprobaciones previas al análisis
 - [x] [Analisis parte 1](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#1-qu%C3%A9-tan-fuerte-fue-la-ca%C3%ADda-en-2020-comparado-con-2019-1) ‖ 02/12/25 - Primera parte del análisis
-- [ ] Análisis parte 2  
+- [ ] [Análisis parte 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#2-en-qu%C3%A9-a%C3%B1o-comenz%C3%B3-la-recuperaci%C3%B3n-real-20212024-1)  ‖ 03/12/25 - Iniciamos la segunda pregunta
+- [ ] Análisis parte 3  ‖ 
+- [ ] Análisis parte 4  ‖ 
 - [ ] Conclusiones finales
 
 ---
@@ -212,9 +214,28 @@ Para visualizar estas diferencias de forma más clara, se presenta el siguiente 
   <img src="img/Caida_comunidad.png" width="800">
 </p>
 
+___
+
 ### 2. ¿En qué año comenzó la recuperación real (2021–2024)?
-- Crecimiento YoY  
-- Comparación entre regiones  
+
+Para identificar cuándo se inició la recuperación turística tras la pandemia, analizamos la evolución anual del total nacional de turistas entre 2019 y 2024. Este enfoque permite observar el comportamiento global antes de profundizar por comunidad autónoma.
+
+#### ➤ **Crecimiento YoY**  
+
+<p align="center">
+  <img src="img/total_turistas_anuales.png" width="800">
+</p>
+
+El gráfico muestra tres fases muy marcadas:
+   - 2020: el turismo sufre un colapso histórico debido a las restricciones globales.
+   - 2021–2022: comienza la recuperación. 2021 muestra un aumento moderado, pero es en 2022 cuando se observa un repunte significativo.
+   - 2023–2024: se alcanza la recuperación real.
+      - En 2023 el volumen turístico vuelve a situarse ligeramente por encima del nivel pre-pandemia.
+      - En 2024, España no solo recupera el turismo perdido, sino que supera ampliamente los valores de 2019.
+
+En resumen: La recuperación comienza en 2021, se consolida en 2022 y se completa en 2023, alcanzando su punto máximo en 2024
+
+#### ➤ **Comparación entre regiones**  
 
 ### 3. ¿En 2024 el turismo ya superó los niveles de 2019?
 - Total nacional  
