@@ -227,15 +227,16 @@ Para identificar cuándo se inició la recuperación turística tras la pandemia
 </p>
 
 El gráfico muestra tres fases muy marcadas:
-   - 2020: el turismo sufre un colapso histórico debido a las restricciones globales.
-   - 2021–2022: comienza la recuperación. 2021 muestra un aumento moderado, pero es en 2022 cuando se observa un repunte significativo.
-   - 2023–2024: se alcanza la recuperación real.
-      - En 2023 el volumen turístico vuelve a situarse ligeramente por encima del nivel pre-pandemia.
-      - En 2024, España no solo recupera el turismo perdido, sino que supera ampliamente los valores de 2019.
+   - 2020: El turismo sufre un colapso histórico debido a las restricciones globales.
+   - 2021–2022: Comienza la recuperación. 2021 muestra un aumento moderado, pero es en 2022 cuando se observa un repunte significativo.
+   - 2023–2024: Se alcanza la recuperación real.
+      - En 2023: El volumen turístico vuelve a situarse ligeramente por encima del nivel pre-pandemia, marcado en el gráfico con la linea verde punteada.
+      - En 2024: España no solo recupera el turismo perdido, sino que supera ampliamente los valores de 2019.
 
-En resumen: La recuperación comienza en 2021, se consolida en 2022 y se completa en 2023, alcanzando su punto máximo en 2024
+En resumen: La recuperación comienza en 2021, se consolida en 2022 y se completa en 2023, alcanzando su punto máximo en 2024.
 
 #### ➤ **Comparación entre regiones**  
+
 
 ### 3. ¿En 2024 el turismo ya superó los niveles de 2019?
 - Total nacional  
