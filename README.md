@@ -65,7 +65,7 @@ El objetivo final es **medir la magnitud del descenso de turistas** y **determin
 
 ### 2. ¿En qué año comenzó la recuperación real (2021–2024)?
 - Crecimiento YoY  
-- Comparación entre regiones  
+- Comparación comunidad autónoma (2024 vs 2019)  
 
 ### 3. ¿En 2024 el turismo ya superó los niveles de 2019?
 - Total nacional  
@@ -235,8 +235,28 @@ El gráfico muestra tres fases muy marcadas:
 
 En resumen: La recuperación comienza en 2021, se consolida en 2022 y se completa en 2023, alcanzando su punto máximo en 2024.
 
-#### ➤ **Comparación entre regiones**  
+#### ➤ **Comparación comunidad autónoma (2024 vs 2019)**  
 
+Vamos a separar los resultados anteriores y evaluar comunidad por comunidad la recuperación turística post-pandemia.
+En esta sección, el enfoque deja de lado la evolución anual para centrarse en una pregunta concreta:
+
+¿A 2024, todas las comunidades autónomas han recuperado los niveles de turismo de 2019?
+
+Para responderla, tomamos el valor total de turistas en 2019 como referencia del 100%.
+Cualquier comunidad por encima o igual a este valor se considera recuperada, mientras que aquellas por debajo del 100% aún no han alcanzado su nivel pre-pandemia.
+
+<p align="center">
+  <img src="img/Recuperacion_comuidades.png" width="800">
+</p>
+
+**Puntos clave del gráfico**
+
+   - El País Vasco, la Comunitat Valenciana y Navarra lideran la recuperación, superando ampliamente los valores de 2019.
+   - Aragón, Castilla-La Mancha, La Rioja y Extremadura muestran una recuperación más lenta y no llegan a alcanzar los niveles pre-pandemia.
+
+Conclusión:
+La recuperación no ha sido homogénea.\
+Mientras que algunas regiones han logrado crecer por encima de los niveles de 2019, otras todavía se mantienen por debajo del umbral de recuperación, evidenciando patrones distintos entre comunidades autónomas y diferentes velocidades de rebote tras la pandemia.
 
 ### 3. ¿En 2024 el turismo ya superó los niveles de 2019?
 - Total nacional  
