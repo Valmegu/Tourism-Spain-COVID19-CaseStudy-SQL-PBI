@@ -222,13 +222,15 @@ Para identificar cuándo se inició la recuperación turística tras la pandemia
 
 #### ➤ **Crecimiento YoY**  
 
+Para evaluar el crecimiento anual, tomaremos el 2019 como referencia y por ende será el 0% en nuestro siguiente gráfico
+
 <p align="center">
-  <img src="img/total_turistas_anuales.png" width="800">
+  <img src="img/total_turistas_anuales_v2.png" width="800">
 </p>
 
 El gráfico muestra tres fases muy marcadas:
-   - 2020: El turismo sufre un colapso histórico debido a las restricciones globales.
-   - 2021–2022: Comienza la recuperación. 2021 muestra un aumento moderado, pero es en 2022 cuando se observa un repunte significativo.
+   - 2020: El turismo sufre un colapso histórico debido a las restricciones globales con una caida del 77%.
+   - 2021–2022: Comienza la recuperación. 2021 muestra un aumento moderado, pero es en 2022 cuando se observa un repunte significativo y llegamos a un -14% de turistas con respecto al 2019.
    - 2023–2024: Se alcanza la recuperación real.
       - En 2023: El volumen turístico vuelve a situarse ligeramente por encima del nivel pre-pandemia, marcado en el gráfico con la linea verde punteada.
       - En 2024: España no solo recupera el turismo perdido, sino que supera ampliamente los valores de 2019.
@@ -266,7 +268,7 @@ Hemos confirmado que el turismo en España ya se encuentral recuperado par el 20
 
 #### ➤ **Total nacional**
 
-Para el 2024 podemos ver que el turismo nacional aumentó un 12% con respecto al 2019 como muestra el gráfico YoY de la [pregunta 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL#-crecimiento-yoy). Podemos concluir que luego de 4 años de post-pandemia se logró llegar a una recuperación real
+Para el 2024 podemos ver que el turismo nacional aumentó un 12% con respecto al 2019 como muestra el gráfico YoY de la [pregunta 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL#-crecimiento-yoy). Podemos concluir que luego de 4 años de post-pandemia se logró llegar a una recuperación real y estable.
   
 #### ➤ **Ranking por comunidad** 
 #### ➤ **Cuota del turismo nacional**
