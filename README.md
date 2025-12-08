@@ -260,8 +260,14 @@ Mientras que algunas regiones han logrado crecer por encima de los niveles de 20
 
 ___
 
-### 3. ¿En 2024 el turismo ya superó los niveles de 2019?
-- Total nacional  
+### 3. ¿Cómo quedó distribuido el turismo español en 2024 comparado con 2019?
+
+Hemos confirmado que el turismo en España ya se encuentral recuperado par el 2024 e incluso superó los niveles del 2019. Ahora analizaremos cómo se distribuye este crecimiento por comunidad autónoma para determinar los protagonismas actuales del turismo y cuáles han perido peso en los útimos años
+
+- Total nacional
+
+Para el 2024 podemos ver que el turismo nacional aumentó un 12% con respecto al 2019 como muestra el gráfico anterior. Podemos concluir que luego de 4 años de post-pandemia se logró llegar a una recuperación real
+  
 - Ranking por comunidad  
 - Cuota del turismo nacional
 
