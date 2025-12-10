@@ -271,11 +271,13 @@ Para el 2024 podemos ver que el turismo nacional aumentó un 12% con respecto al
   
 #### ➤ **Cuota del turismo nacional**
 
+Para medir la cuota de turismo nacional calculamos la diferencia entre el porcentaje de representación de cada comunidad en el 2019 y el 2024. con esto podremos ver el crecimiento y decrecimiento de cada comunidad en el total nacional luego de la pandemia.
+
 <p align="center">
   <img src="img/cuota_turistica.png" width="800">
 </p>
 
-Este gráfico muestra el cambio en la cuota turística que representa cada comunidad dentro del total nacional.
+Podemos ver 3 aspectos claves
 
    - Comunitat Valenciana (+1.29 p.p.), Canarias (+0.50 p.p.) y País Vasco (+0.36 p.p.) son las regiones que más ganan protagonismo en 2024.
    - Cataluña (–1.93 p.p.) es la comunidad que más pierde peso relativo, seguida de Extremadura, Aragón y Castilla y León.
