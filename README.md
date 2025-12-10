@@ -287,4 +287,16 @@ Este análisis revela que, más allá del volumen total de turistas, la distribu
 
 ___
 
-### 4. ¿Qué comunidades muestran la recuperación más rápida?
+### 4. ¿Las comunidades que más turistas tenían antes de la pandemia fueron también las que mejor se recuperaron?
+
+Para responder esta pregunta evaluaremos 4 aspectos claves en un gráfico de disperción
+
+   - Porcentaje de recuperación por comunidad con respecto al 2019 (Eje x)
+   - Turistas por comunidad en 2019 (Eje Y)
+   - Peso en la cuota de turismo en el 2024 (Tamaño del círculo)
+   - Estado actual: Recuperado/No recuperado (Colores)
+
+<p align="center">
+  <img src="img/recuperacion_turistas2019.png" width="800">
+</p>
+
