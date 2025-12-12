@@ -38,9 +38,9 @@ project
 
 El archivo [`02_respuestas.sql`](sql/02_respuestas.sql) contiene:
 
-- creación de vistas necesarias (`v_indices`, `v_resumen`)
-- cálculos de recuperación por comunidad
-- consultas para responder preguntas P1–P4
+- Creación de vistas necesarias (`v_indices`, `v_resumen`)
+- Cálculos de recuperación por comunidad
+- Consultas para responder preguntas P1–P4
 
 Se puede ejecutar directamente sobre la base `turistas_comunidad_clean`.
 
@@ -58,7 +58,7 @@ Se puede ejecutar directamente sobre la base `turistas_comunidad_clean`.
 - [x] [Análisis parte 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#2-en-qu%C3%A9-a%C3%B1o-comenz%C3%B3-la-recuperaci%C3%B3n-real-20212024-1)  ‖ 03/12/25 a 05/12/25 - Segunda parte del análisis
 - [x] [Análisis parte 3](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#3-c%C3%B3mo-qued%C3%B3-distribuido-el-turismo-espa%C3%B1ol-en-2024-comparado-con-2019)  ‖ 08/12/25 a 09/12/25 - Tercera parte
 - [x] [Análisis parte 4](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#4-las-comunidades-que-m%C3%A1s-turistas-ten%C3%ADan-antes-de-la-pandemia-fueron-tambi%C3%A9n-las-que-mejor-se-recuperaron)  ‖ 10/12/25 - Tercera parte del análisis
-- [x] Conclusiones finales y limitaciones ‖ 12/12/25
+- [x] [Conclusiones finales y limitaciones](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL#conclusiones) ‖ 12/12/25
 
 ---
 
