@@ -32,7 +32,7 @@ project
 ```
 ---
 
-### SQL del análisis final
+## SQL del análisis final
 
 El archivo [`02_respuestas.sql`](sql/02_respuestas.sql) contiene:
 
@@ -319,5 +319,23 @@ Así ponemos en evidencia hallazgos clave:
 3. País Vasco, Cantabria y Navarra destacan al haber superado en su recuperación a comunidades que históricamente tenían mayor cuota turística nacional.
 4. Aunque Cataluña sigue siendo la comunidad más turística por volumen absoluto, su recuperación porcentual es más moderada comparada con otras regiones que han crecido con más fuerza.
 
-La recuperación no ha sido uniforme. Tras la pandemia, parece estar produciéndose un cambio en el mapa turístico, donde varias comunidades emergentes están ganando protagonismo y reduciendo la brecha respecto a las regiones tradicionalmente dominantes
-   
+La recuperación no ha sido uniforme. Tras la pandemia, parece estar produciéndose un cambio en el mapa turístico, donde varias comunidades emergentes están ganando protagonismo y reduciendo la brecha respecto a las regiones tradicionalmente dominantes.
+
+---
+
+##Conclusiones
+
+En este proyecto analizamos el número de turistas registrados por comunidad autónoma entre 2019 y 2024, con el objetivo de medir el impacto del desplome causado por la pandemia y evaluar el ritmo de recuperación de cada región. A partir del análisis, llegamos a las siguientes conclusiones clave:
+
+- **Caída histórica:** En 2020 el turismo nacional sufrió una reducción del 77% respecto a 2019. Las comunidades más afectadas en términos absolutos fueron Illes Balears, Cataluña y Andalucía, todas ellas con fuerte dependencia del turismo internacional.
+- **Recuperación progresiva:** Aunque el repunte comenzó en 2021 tras la eliminación de restricciones, la recuperación completa no se consolidó hasta 2023, cuando el volumen nacional volvió a los niveles pre-pandemia y posteriormente los superó en 2024.
+- **Recuperación desigual por comunidad:** La evolución no fue homogénea. En 2024, Aragón, Castilla-La Mancha, La Rioja y Extremadura aún no han recuperado los niveles de 2019, siendo Extremadura la más rezagada en términos relativos.
+- **Cambio en la distribución turística:** Más allá del volumen total, se observa una redistribución del turismo nacional. Comunidades de tamaño medio (Como Comunitat Valenciana, País Vasco o Navarra) han ganado protagonismo, mientras que otras tradicionalmente dominantes reducen ligeramente su peso. Esto apunta a un posible cambio estructural en las preferencias de viaje, influido por factores como mayor turismo nacional, cambios de accesibilidad o diversificación de la oferta.
+
+---
+
+## Limitaciones
+
+- Algunos registros (Ceuta y Melilla) tienen datos incompletos en ciertos años.
+- El análisis se basa en el agregado anual por comunidad; un desglose por trimestre o por tipología de turista podría aportar matices relevantes.
+- Fuentes externas (por ejemplo, datos de conectividad aeroportuaria o gasto medio) no fueron incorporadas y podrían enriquecer el análisis causal.
