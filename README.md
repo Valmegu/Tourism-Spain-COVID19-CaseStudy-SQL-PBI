@@ -32,6 +32,18 @@ project
 ```
 ---
 
+### SQL del análisis final
+
+El archivo [`02_respuestas.sql`](sql/02_respuestas.sql) contiene:
+
+- creación de vistas necesarias (`v_indices`, `v_resumen`)
+- cálculos de recuperación por comunidad
+- consultas para responder preguntas P1–P4
+
+Se puede ejecutar directamente sobre la base `turistas_comunidad_clean`.
+
+---
+
 ## Estado del proyecto ‖ Updates
 **En desarrollo:**  
 - [x] Crear proyecto ‖ 27/11/25 - Proyecto creado (estructura inicial)
