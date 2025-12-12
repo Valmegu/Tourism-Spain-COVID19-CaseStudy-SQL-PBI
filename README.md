@@ -323,7 +323,7 @@ La recuperación no ha sido uniforme. Tras la pandemia, parece estar produciénd
 
 ---
 
-##Conclusiones
+## Conclusiones
 
 En este proyecto analizamos el número de turistas registrados por comunidad autónoma entre 2019 y 2024, con el objetivo de medir el impacto del desplome causado por la pandemia y evaluar el ritmo de recuperación de cada región. A partir del análisis, llegamos a las siguientes conclusiones clave:
 
